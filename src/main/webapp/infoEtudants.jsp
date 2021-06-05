@@ -2,25 +2,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css'>
+
     <title>les informations d'Etudiants</title>
 
-    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
-    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 </head>
 <body>
-<div class="container">
+
+<div class="container" style="margin-top: 10%;">
     <div class="row">
         <div class="col-12">
             <div class="card">
                 <div class="card-body text-center">
-                    <h5 class="card-title m-b-0">les informations d'Etudiants </h5>
+                    <h5 class="card-title m-b-0">Les informations d'Etudiants </h5>
                 </div>
                 <div class="table-responsive">
                     <table class="table">
                         <thead class="thead-light">
                         <tr>
-                            <th> <label class="customcheckbox m-b-20"> <input type="checkbox" id="mainCheckbox"> <span class="checkmark"></span> </label> </th>
                             <th scope="col">Nom </th>
                             <th scope="col">Prenom</th>
                             <th scope="col">Filiere</th>
@@ -29,7 +34,6 @@
                         </thead>
                         <tbody class="customtable">
                         <tr>
-                            <th> <label class="customcheckbox"> <input type="checkbox" class="listCheckbox"> <span class="checkmark"></span> </label> </th>
                             <td>elkihel</td>
                             <td>salah</td>
                             <td>génie informatique</td>
@@ -37,20 +41,26 @@
                         </tr>
 
                         <tr>
-                            <th> <label class="customcheckbox"> <input type="checkbox" class="listCheckbox"> <span class="checkmark"></span> </label> </th>
                             <td>mohammed</td>
                             <td>fahmi</td>
                             <td>génie informatique</td>
                             <td>18</td>
                         </tr>
-
-
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
     </div>
+
+
 </div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
