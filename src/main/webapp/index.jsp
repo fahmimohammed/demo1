@@ -37,6 +37,17 @@
                         </select>
 
                     </div>
+                    <div class="col-md-12">
+                        <label  class="form-label">Module:</label>
+                        <select class="form-select mt-3" required>
+
+                            <option selected disabled value="">Choisir un module...</option>
+                            <option value="1">1èr Module</option>
+                            <option value="2">2ème Module</option>
+                            <option value="3">3ème Module</option>
+                        </select>
+
+                    </div>
 
                     <div class="form-button mt-3">
                         <button id="submit" type="submit" class="btn btn-primary">valider</button>
